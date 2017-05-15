@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix="Person")
+@ConfigurationProperties(prefix="person")
 
 public class PersonProperties {
 	private String username;
