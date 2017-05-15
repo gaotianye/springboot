@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties(prefix="person")
-
 public class PersonProperties {
 	private String username;
 	private String password;
