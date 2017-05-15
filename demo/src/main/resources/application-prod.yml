@@ -1,0 +1,8 @@
+server:
+  port: 8081
+  context-path: /demo
+Person:
+  username: yuwei
+  password: yuwei2017
+  age: 23
+  address: anqing
