@@ -2,11 +2,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://59.110.242.5:3306/gaotianye
+    url: jdbc:mysql://192.168.22.253:3306/gaotianye
     username: root
-    password: root
+    password: novacloud
 ########################### Jpa ###########################
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+    database: MYSQL
