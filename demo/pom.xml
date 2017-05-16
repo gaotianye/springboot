@@ -25,6 +25,11 @@
 	</properties>
 
 	<dependencies>
+		<!-- starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
 		<!-- Springboot web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
