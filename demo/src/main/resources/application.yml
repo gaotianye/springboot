@@ -2,24 +2,11 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.22.253:3306/gaotianye
+    url: jdbc:mysql://59.110.242.5:3306/gaotianye
     username: root
-    password: novacloud
-    initialSize: 10
-    max-active: 100
-    max-idle: 30
-    min-idle: 1
-    max-wait: 10000
-    test-while-idle: true
-    test-on-borrow: true
-    test-on-return: true
-    validation-query: SELECT 1
-    validation-interval: 30000
-    remove-abandoned: true
-    remove-abandoned-timeout: 60
-    log-abandoned: true
+    password: root
 ########################### Jpa ###########################
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true

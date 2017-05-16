@@ -1,7 +1,7 @@
 server:
   port: 8080
   context-path: /demo
-Person:
+person:
   username: gaotianye
   password: gty2017
   age: 27
